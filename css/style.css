@@ -38,3 +38,25 @@ body{
 .navbar-dark{
     background-color: #353434;
 }
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel{
+    background: #353434;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-height: 300px;
+}
