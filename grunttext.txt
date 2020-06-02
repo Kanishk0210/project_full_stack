@@ -58,7 +58,8 @@ module.exports = function(grunt){
                     src:['fonts/*.*'],
                     dest:'dist'
                 }]
-            }
+            },
+            
         },
         clean:{
             build:{
@@ -71,8 +72,8 @@ module.exports = function(grunt){
                     expand:true,
                     dot:true,
                     cwd:'./',
-                    src:['img/*.{png,jpg,gif}'],
-                    dest:'dist/'
+                    src:['img/*.{png,jpeg,gif}'],
+                    dest:'dist'
                 }]
             }
         },
